@@ -34,7 +34,7 @@ export function Header() {
         </button>
         {isCartOpen && <Cart />}
         <button className="header__profile-btn">
-          <img className="header__avatar" src="../images/image-avatar.png" alt="profile" />
+          <img className="header__avatar" src="./images/image-avatar.png" alt="profile" />
         </button>
       </div>
     </header>

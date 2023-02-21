@@ -12,7 +12,7 @@ export function CartItem() {
 
   return (
     <div className="cart__item">
-      <img className="cart__img" src={`../images/image-product-1-thumbnail.jpg`} alt="product" />
+      <img className="cart__img" src={`./images/image-product-1-thumbnail.jpg`} alt="product" />
       <div>
         <h2 className="cart__title">Fall Limited Edition Sneakers</h2>
         <span className="cart__price-single">$125.00 x {itemCount}</span>

@@ -12,7 +12,7 @@ export function Image(props) {
 
   return (
     <button style={styles} onClick={handleClick}>
-      <img style={{ opacity: props.isChecked ? 0.5 : 1 }} src={`../images/image-product-${props.imageNumber}-thumbnail.jpg`} alt="product" />
+      <img style={{ opacity: props.isChecked ? 0.5 : 1 }} src={`./images/image-product-${props.imageNumber}-thumbnail.jpg`} alt="product" />
     </button>
   )
 }

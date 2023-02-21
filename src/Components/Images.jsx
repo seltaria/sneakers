@@ -28,7 +28,7 @@ export function Images() {
 
   return (
     <div className="images">
-      <img className="images__main" src={`../images/image-product-${mainImage}.jpg`} alt="product" />
+      <img className="images__main" src={`./images/image-product-${mainImage}.jpg`} alt="product" />
       {imageElements}
     </div>
   )
