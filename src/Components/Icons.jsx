@@ -31,3 +31,27 @@ export function DeleteIcon() {
     </svg>
   )
 }
+
+export function NextIcon() {
+  return (
+    <svg width="13" height="18" xmlns="http://www.w3.org/2000/svg">
+      <path d="m2 1 8 8-8 8" stroke="#1D2026" strokeWidth="2" fill="none" fillRule="evenodd" />
+    </svg>
+  )
+}
+
+export function PrevIcon() {
+  return (
+    <svg width="12" height="18" xmlns="http://www.w3.org/2000/svg">
+      <path d="M11 1 3 9l8 8" stroke="#1D2026" strokeWidth="2" fill="none" fillRule="evenodd" />
+    </svg>
+  )
+}
+
+export function BurgerIcon() {
+  return (
+    <svg width="16" height="15" xmlns="http://www.w3.org/2000/svg">
+      <path d="M16 12v3H0v-3h16Zm0-6v3H0V6h16Zm0-6v3H0V0h16Z" fill="#69707D" fillRule="evenodd" />
+    </svg>
+  )
+}
